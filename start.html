@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Game ON</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+	<title>
+  Game ON
+  </title>
 </head>
-<body>
-<h1>Thank You For Playing</h1>
+<body background="gray">
+
+
 <script type="text/javascript">
 	confirm("Click OK if You are Ready")
+  var name = prompt("Enter Your name ");
 	var age = prompt("Enter Your age:-");
-if (age < 13){
+if (age < 16){
     alert("Play at Your Own Risk");
 
     }
@@ -54,13 +60,45 @@ if (age < 13){
       
       var feedback= prompt("Rate This Game From 1 to 10");
         if (feedback > 6)
-        { confirm("Thank you!");
+        { confirm("Thank you   " + name  + " !");
             }
             else {
-                confirm("I'll keep practicing coding")
+                confirm("I'll keep practicing coding " + name + "!");
                 }
+                
 
-</script>
 
+                   </script>
+
+<div id="ty" style="font-size: 80px;
+  float:left;color:teal;  ">
+______________Thank You 
+<br>
+</br> 
+</div>
+<div id="fp" style="
+    font-size: 80px;
+    float:right;
+    
+  color:teal; 
+
+
+">
+ For Playing !__________
+</div> 
+<p>           
+
+
+
+</p>
+<div id="author" style="
+   float:left;
+   font-size:36px;
+   background-color:;
+   color:#11BCF5;
+   ">
+  <footer>________ > Smith Bhojak Creations_______ </footer>
+   </div>
+ 
 </body>
 </html>
