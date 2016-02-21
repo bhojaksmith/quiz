@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style1.css">
- <title>True OR False</title>
+    <title>True OR False</title>
 </head>
+    <style>
+    #ty{
+      font-size: 80px;
+  float:left;color:#11BCF5;  text-align:center; padding-left:400px;
+    }
+ #fp{
+    font-size: 80px;
+    padding-top:100px;
+    padding-right:50px;
+    color:#11BCF5; 
+    text-align:center;
+ }
+ #q{ font-size: 80px;
+    float:left:10px;
+    color:orange;
+    text-align:center;  
+    }
+#aver{
+    font-size: 50px;
+    float:right;
+    color:cyan;
+}
+#author{
+    float:left;
+   font-size:36px;
+   background-color:;
+   color:black;
+}
+#authors{
+float:left;
+font-size:36px;
+background-color:;
+color:#EDDB15;
+}
+    </style>
 <body bgcolor="teal">
-
 
 <script type="text/javascript">
   confirm("Click OK if You are Ready")
@@ -18,73 +51,89 @@ if (age < 16){
         confirm("Game on");
         }
         confirm("Answer the Following in t or f ");
+        
       var uA = prompt("1)Dennis Ritchie Invented C");
       if (uA === "t"){
         confirm("True is Correct Answer");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong correct answer is True");
       }
+      else { confirm("please Enter in 't' & 'f' ");}
+          
+          
       var uA = prompt("2)() punctuation is used to signal the beginning and end of code blocks?");
       if (uA === "f"){
         confirm("You are right  correct answer is {} ");
       }
-      else {
+      else if (uA === "f"){
         confirm("you are wrong correct answer is {}");
       }
+      else { confirm("please Enter in 't' & 'f' ");}
       var uA = prompt("3); punctuation ends most lines of C code");
       if (uA === "t"){
         confirm("You are Correct ; ends most lines of c code ");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong ; ends most lines of c code");
       }
+      else { confirm("please Enter in 't' & 'f' ");}
       var uA = prompt("4)== is the correct operator to compare two variables?");
       if (uA === "t"){
         confirm("you are Correct  == is Correct operator to compare ");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong == is Correct operator to compare");
       }
+      else { confirm("please Enter in 't' & 'f' ");}
       var uA = prompt("5)start() is the only function all C programs must contain?");
       if (uA === "f"){
         confirm("false is correct main() is right answer");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong , main() is right answer");
       }
+      else { confirm("please Enter in 't' & 'f' ");}
       var uA = prompt("6)there is no differnce between While Loop & For Looop");
       if (uA === "f"){
         confirm("you are Correct  there is a differnce between them");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong there is a differnce between them");
     }
+    else { confirm("please Enter in 't' & 'f' ");}
       var uA = prompt("7)Is void a variable?");
       if (uA === "f"){
         confirm("you are Wrong void is a variable ");
       }
+      else if (uA === "f"){
+          confirm("You are right void is variable");
+      }
+      else { confirm("please Enter in 't' & 'f' ");}
       var uA = prompt("8)Can keywords be used as variables?");
       if (uA === "f"){
         confirm("you are Correct keywords cannot be used as variables");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong");
     }
+    else { confirm("please Enter in 't' & 'f' ");}
       var uA = prompt("9)Can we use Symbols in algorithm?");
       if (uA === "f"){
         confirm("You are correct");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong we cannot use symbolls i algorithm");
     }
+    else { confirm("please Enter in 't' & 'f' ");}
      var uA = prompt("10)Console log inout output is a header file ?");
       if (uA === "t"){
         confirm("you are Correct ");
       }
-      else {
+      else if (uA === "f"){
         confirm("You are wrong ");
     }
+    else { confirm("please Enter in 't' & 'f' ");}
         var feedback= prompt("Rate This Game From 1 to 10");
         if (feedback > 6)
         { confirm("Thank you   " + name  + " !");
@@ -94,58 +143,31 @@ if (age < 16){
                 }
                 
                    </script>
-
-<div id="ty" style="font-size: 80px;
-  float:left;color:#11BCF5;  ">
- ___________Thank You.....
+<div id="ty">
+ Thank_You !
 <br>
 </br> 
 </div>
-<div id="fp" style="
-    font-size: 80px;
-    float:right10px;
-    float:top:30px;
-  color:#11BCF5; 
-">
- __________For Playing :)
+<div id="fp">
+ For_Playing :)
 </div> 
 <p>           
-<div id="q" style="  font-size: 80px;
-    float:left:10px;
-    
-  color:#11BCF5; ">
+<div id="q">
  PopupQuiz
-
 </p>
 </div>
-<div id="aver" style="font-size: 50px;
-    float:right;
-    
-  color:#11BCF5; "> 
-	(Ver 1.1.3)
-
+<div id="aver"> 
+	(Ver 1.2.1)
 </div>
-<div id="author" style="
-   float:left;
-   font-size:36px;
-   background-color:;
-   color:black;
-   ">
+<div id="author" style=>
   <p>Author :- </p>
-
 </div>
 <br>
-	
-</br>
+<br>
 <b>
-<div id="authors" style="
-float:left;
-font-size:36px;
-background-color:;
-color:#EDDB15;
-"> 
-  Smith Bhojak </p>
- 
+<div id="authors"> 
+  Smith Bhojak 
+      </p>
    </div>
  </b>
 </body>
