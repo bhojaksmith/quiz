@@ -1,0 +1,33 @@
+#ty{
+      font-size: 80px;
+  float:left;color:#11BCF5;  text-align:center; padding-left:400px;
+    }
+ #fp{
+    font-size: 80px;
+    padding-top:100px;
+    padding-right:50px;
+    color:#11BCF5; 
+    text-align:center;
+ }
+ #q{ font-size: 80px;
+    float:left:10px;
+    color:orange;
+    text-align:center;  
+    }
+#aver{
+    font-size: 50px;
+    float:right;
+    color:cyan;
+}
+#author{
+    float:left;
+   font-size:36px;
+   background-color:;
+   color:black;
+}
+#authors{
+float:left;
+font-size:36px;
+background-color:;
+color:#EDDB15;
+}
